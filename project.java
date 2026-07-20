@@ -6,7 +6,13 @@ class project {
     int age = 17;
 
     void getName(){
-        
+        System.out.println("Student ID: " + sid);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
     }
 
+    public static void main(String[] args) {
+        project obj = new project();
+        obj.getName();
+    }
 }
